@@ -1,0 +1,19 @@
+{
+  "name": "demo-copilot-node",
+  "version": "1.0.0",
+  "description": "Demo de GitHub Copilot (plan Free) + seguridad con CodeQL y Copilot Autofix",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --verbose"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
